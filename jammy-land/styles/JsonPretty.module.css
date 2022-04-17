@@ -1,0 +1,44 @@
+.container {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.input {
+  flex: 9;
+  flex-direction: column;
+  max-width: 40vw;
+}
+
+.output {
+  flex: 9;
+  flex-direction: column;
+  max-width: 40vw;
+}
+
+.outputCodeBlock {
+  max-height: 75vh;
+  overflow: scroll;
+}
+
+.function {
+  display: flex;
+  flex: 2;
+  margin-top: 80px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spaceAmountSelect {
+  margin: 20px;
+}
+
+.convertButton {
+  margin: 20px;
+}

@@ -1,4 +1,9 @@
 import Head from 'next/head';
+import { AppBar, Box, Toolbar, Button, Typography, IconButton } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
+import Link from 'next/link';
+
+const pages = [{label: 'JSON pretty', url: 'json_pretty'}];
 
 const Header = () => (
   <div>
@@ -8,7 +13,38 @@ const Header = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <p>Hello world!</p>
+    <Box sx={{flexGrow: 1}}>
+      <AppBar position="static">
+        <Toolbar> 
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 2 }}
+          >
+            <MenuIcon />
+          </IconButton>
+          <Link href={'/'} passHref>
+            <Typography variant="h5" component="div" sx={{ flexGrow: 1, display: { xs: 'flex', md: 'contents' } }}>
+              JammyLand
+            </Typography>
+          </Link>
+          
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, marginLeft: 20 }}>
+            {pages.map((page) => (
+              <Link key={page.url} href={page.url} passHref>
+                <Button
+                  sx={{ my: 2, color: 'white', display: 'block' }}
+                >
+                  {page.label}
+                </Button>
+              </Link>
+            ))}
+          </Box>
+        </Toolbar>
+      </AppBar>
+    </Box>
   </div>
 );
 
