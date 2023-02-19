@@ -3,7 +3,10 @@ import { AppBar, Box, Toolbar, Button, Typography, IconButton } from '@mui/mater
 import MenuIcon from '@mui/icons-material/Menu';
 import Link from 'next/link';
 
-const pages = [{label: 'JSON pretty', url: 'json_pretty'}];
+const pages = [
+  {label: 'JSON pretty', url: 'json_pretty'},
+  {label: 'Prompt Generator', url: 'prompt_generator'},
+];
 
 const Header = () => (
   <div>

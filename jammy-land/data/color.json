@@ -1,0 +1,102 @@
+{
+  "none": {
+    "ko": "없음",
+    "color_code": null
+  },
+  "black": {
+    "ko": "검정색",
+    "color_code": "#000000"
+  },
+  "blue": {
+    "ko": "파란색",
+    "color_code": "#0000FF"
+  },
+  "brown": {
+    "ko": "갈색",
+    "color_code": "#A52A2A"
+  },
+  "golden": {
+    "ko": "황금색",
+    "color_code": "#FFD700"
+  },
+  "gray": {
+    "ko": "회색",
+    "color_code": "#808080"
+  },
+  "green": {
+    "ko": "녹색",
+    "color_code": "#008000"
+  },
+  "green-tinted": {
+    "ko": "녹색틴트",
+    "color_code": "#00FF00"
+  },
+  "indigo": {
+    "ko": "남색",
+    "color_code": "#4B0082"
+  },
+  "light-green": {
+    "ko": "연두색",
+    "color_code": "#90EE90"
+  },
+  "orange": {
+    "ko": "주황색",
+    "color_code": "#FFA500"
+  },
+  "pink": {
+    "ko": "분홍색",
+    "color_code": "#FFC0CB"
+  },
+  "purple": {
+    "ko": "보라색",
+    "color_code": "#800080"
+  },
+  "red": {
+    "ko": "빨간색",
+    "color_code": "#FF0000"
+  },
+  "sky-blue": {
+    "ko": "하늘색",
+    "color_code": "#87CEEB"
+  },
+  "white": {
+    "ko": "하얀색",
+    "color_code": "#FFFFFF"
+  },
+  "yellow": {
+    "ko": "노란색",
+    "color_code": "#FFFF00"
+  },
+  "dark": {
+    "ko": "어두운",
+    "color_code": null
+  },
+  "gradient": {
+    "ko": "그라디언트",
+    "color_code": null
+  },
+  "lens-colors": {
+    "ko": "옅은 색상",
+    "color_code": null
+  },
+  "multicolored": {
+    "ko": "다색",
+    "color_code": null
+  },
+  "rainbow": {
+    "ko": "무지개",
+    "color_code": null
+  },
+  "split-color": {
+    "ko": "분할 색상",
+    "color_code": null
+  },
+  "streaked": {
+    "ko": "줄무늬",
+    "color_code": null
+  },
+  "two-tone": {
+    "ko": "투 톤",
+    "color_code": null
+  }
+}
